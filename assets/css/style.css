@@ -51,19 +51,6 @@ body {
   justify-content: space-between;
 }
 
-.login-button {
-  display: flex;
-  align-items: center;
-}
-
-.login-button button {
-  border: none;
-  background-color: #6c63ff;
-  padding: 0.4rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .login-button button:hover {
   background-color: #6b63fff1;
 }
@@ -103,7 +90,7 @@ body {
   padding: 0.8rem 1.2rem;
   border: none;
   border-radius: 10px;
-  box-shadow: -1px 1px 6px #00000016;
+  box-shadow: 1px 1px 6px #00000016;
 }
 
 .input-box input:hover {
@@ -170,8 +157,7 @@ body {
 
 /*Deixar o formulario responsivo , a partir daqui: */
 
-@media screen and (max-width: 1330px)
- {
+@media screen and (max-width: 1330px) {
   .form-image {
     display: none;
   }
@@ -183,7 +169,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1064px){
+@media screen and (max-width: 1064px) {
   .container {
     width: 90%;
     height: auto;
